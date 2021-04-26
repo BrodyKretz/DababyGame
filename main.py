@@ -81,7 +81,7 @@ def process_game_events():
                 pygame.key.set_repeat(10)
                 state['car_position'][0] += state['car_speed']
             if event.key == pygame.K_r:
-                print('RESETTING')
+                
 
                 state["car_position"] = [315, 425]
                 state['car_speed'] = 5
