@@ -2,7 +2,7 @@
 Literally just a dababy game.
 
 ```
-git clone 
+git clone https://github.com/TheComputerDon/DababyGame.git
 ```
 ```
 cd DababyGame
