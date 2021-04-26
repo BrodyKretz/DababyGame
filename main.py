@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 
-PED_IMAGES = ['DaPad.jpg','DaPad2.jpg','DaPad3.jpg','DaPad4.jpg','DaPad5.jpg','DaPad6.jpg']
+PED_IMAGES = ['Assets/DaPad.jpg','Assets/DaPad2.jpg','Assets/DaPad3.jpg','Assets/DaPad4.jpg','Assets/DaPad5.jpg','Assets/DaPad6.jpg']
 
 
 state = {
@@ -89,7 +89,7 @@ def process_game_events():
                 state["enemy_speed"] = 2
                 state["crashed"] = False
                 state["score"] = 0
-                state['car_image'] = pygame.image.load('Dababy.jpg')
+                state['car_image'] = pygame.image.load('Assets/Dababy.jpg')
 
 
                     ###
@@ -104,7 +104,7 @@ def check_crash():
     if state['crashed']:
         state['car_speed'] = 0
         state['enemy_speed'] = 0
-        state['car_image'] = pygame.image.load('Badbaby.jpg')
+        state['car_image'] = pygame.image.load('Assets/Badbaby.jpg')
 
         font_color_2 = (3, 150, 250)
         font_obj_2 = pygame.font.Font("arial.ttf", 75)
@@ -112,7 +112,7 @@ def check_crash():
         gameDisplay.blit(text_obj_2, (400, 200))
 
         font_color_2 = (3, 150, 250)
-        font_obj_2 = pygame.font.Font("arial.ttf", 75)
+        font_obj_2 = pygame.font.Font("Assets/arial.ttf", 75)
         text_obj_2 = font_obj_2.render(('Press R to Restart'), True, font_color_2)
         gameDisplay.blit(text_obj_2, (400, 300))
 
