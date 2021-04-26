@@ -26,7 +26,7 @@ state = {
 
 def draw_score():
     font_color=(0,150,250)
-    font_obj=pygame.font.Font("arial.ttf", 50)
+    font_obj=pygame.font.Font("Assets/arial.ttf", 50)
 
     # Render the objects
     text_obj = font_obj.render('Score: ' +  str(state['score']), True, font_color)
