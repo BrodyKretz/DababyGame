@@ -107,7 +107,7 @@ def check_crash():
         state['car_image'] = pygame.image.load('Assets/Badbaby.jpg')
 
         font_color_2 = (3, 150, 250)
-        font_obj_2 = pygame.font.Font("arial.ttf", 75)
+        font_obj_2 = pygame.font.Font("Assets/arial.ttf", 75)
         text_obj_2 = font_obj_2.render(('OH NO YOUR A BAD BABY!'), True, font_color_2)
         gameDisplay.blit(text_obj_2, (400, 200))
 
