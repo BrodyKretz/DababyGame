@@ -16,7 +16,7 @@ state = {
     'car_speed': 5,
     "enemy_position": [0, 0],
     "enemy_speed": 2,
-    'car_image': pygame.image.load('Dababy.jpg'),
+    'car_image': pygame.image.load('Assets/Dababy.jpg'),
     'enemy_image': pygame.image.load(random.choice(PED_IMAGES)),
     "crashed": False,
     "score": 0
